@@ -164,9 +164,9 @@
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="feedback" class="col-md-2 col-form-label">Address</label>
+                                            <label for="address" class="col-md-2 col-form-label">Address</label>
                                             <div class="col-md-10">
-                                                <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
+                                                <textarea class="form-control" id="address" name="address" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
                                             </div>
                                         </div>
                                         <div class="form-group row">
@@ -212,9 +212,9 @@
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6">
-                                                <label for="gender" class="col-12 col-md-5 col-form-label">Profile Picture</label>
+                                                <label for="pic" class="col-12 col-md-5 col-form-label">Profile Picture</label>
                                                 <div class="col-12 col-md-7">
-                                                    <input class="file" type="file" class="form-control" required>
+                                                    <input name="pic" class="file" type="file" class="form-control" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -281,9 +281,9 @@
                                             
                                             <div class="col-md-10">
                                                 <div class="form-check" id="prog">
-                                                    <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupation require extended periods of sitting?</label></p>
-                                                    <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupation require repetitive movements?</label></p>
-                                                    <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupationg  require you to wear shoes with a heel(dress shoes)?</label></p>
+                                                    <p class="col-12 "><input name="extendedperiod" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupation require extended periods of sitting?</label></p>
+                                                    <p class="col-12 "><input name="repetmove" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupation require repetitive movements?</label></p>
+                                                    <p class="col-12 "><input name="wearshoe" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupationg  require you to wear shoes with a heel(dress shoes)?</label></p>
                                                      
                                                 </div>
                                             </div>
@@ -292,18 +292,18 @@
                                         <div class="col-12">
                                             <u><p>Physical Activity Readiness Questionnaire</p></u>
                                             <div class="form-check" id="ready"></div>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has a doctor ever said you have heart trouble of a heart condition?</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has a doctor ever told you that you are diabetic?</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you frequently have pains in your heart and chest or suffer from asthma?</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you often feel faint or have spells of severe dizziness</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has a doctor ever said your blood pressure was too high?</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has your doctor ever told you that you have a bone or joint problem(s)?</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Is there a medical reason why you should not follow an activity program?</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Are you over age 60 AND not accustomed to vigorous exercise?</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you suffer from any problems of the neck, back or knees,i.e. chronic pain, injury or numbness?</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupation require extended periods of sitting?</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Are you currently taking ny medications?</label></p>
-                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you have previous surgeries or injuries</label></p>
+                                            <p class="col-12 "><input name="hearttrouble" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has a doctor ever said you have heart trouble of a heart condition?</label></p>
+                                            <p class="col-12 "><input name="diabetic" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has a doctor ever told you that you are diabetic?</label></p>
+                                            <p class="col-12 "><input name="asthma" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you frequently have pains in your heart and chest or suffer from asthma?</label></p>
+                                            <p class="col-12 "><input name="dizziness" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you often feel faint or have spells of severe dizziness</label></p>
+                                            <p class="col-12 "><input name="bloodpressure" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has a doctor ever said your blood pressure was too high?</label></p>
+                                            <p class="col-12 "><input name="joint" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has your doctor ever told you that you have a bone or joint problem(s)?</label></p>
+                                            <p class="col-12 "><input name="activityprog" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Is there a medical reason why you should not follow an activity program?</label></p>
+                                            <p class="col-12 "><input name="over60" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Are you over age 60 AND not accustomed to vigorous exercise?</label></p>
+                                            <p class="col-12 "><input name="neckback" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you suffer from any problems of the neck, back or knees,i.e. chronic pain, injury or numbness?</label></p>
+                                            
+                                            <p class="col-12 "><input name="medications" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Are you currently taking ny medications?</label></p>
+                                            <p class="col-12 "><input name="surgeries" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you have previous surgeries or injuries</label></p>
                                         
                                         </div>
                                         </div>
@@ -315,210 +315,109 @@
                                                     and then I will make some recommendations on what you need to do to maximize your results.
                                                 </p> 
                                                 <div class="form-group row">
-                                                    <label for="feedback" class="col-md-* col-form-label"> 1. What inspired you to get involved in a fitness program?</label>
+                                                    <label for="inspire" class="col-md-* col-form-label"> 1. What inspired you to get involved in a fitness program?</label>
                                                     <div class="col-md-*">
                                                         <textarea class="form-control" id="inspire" name="inspire" rows="3" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="form-group row">
-                                                    <label for="feedback" class="col-md-* col-form-label"> 2. If currently involved in a workout program, tell me about your schedule</label>
+                                                    <label for="workoutprog" class="col-md-* col-form-label"> 2. If currently involved in a workout program, tell me about your schedule</label>
                                                     <div class="col-md-*">
-                                                        <textarea class="form-control" id="inspire" name="inspire" rows="3" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
+                                                        <textarea class="form-control" id="workoutprog" name="workoutprog" rows="3" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
                                                     </div>
                                                 </div>
                                                 </div>
-                                                <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Are you experiencing positive changes in your body every 3-4 weeks?</label></p>
+                                                <p class="col-12 "><input name="positivechange" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Are you experiencing positive changes in your body every 3-4 weeks?</label></p>
                                        
                                         <div class="form-group row">
-                                            <div class="col-md"><p> 3. Rate yourself on a scale of 1-5 (1 needs work, 5 excellent) Circle the number that best applies</p>
+                                            <div class="col-md"><label>3. Rate yourself on a scale of 1-5 (1 needs work, 5 excellent)</label>
                                         </div></div>
-                                        <div class="form-group row">
-                                        Current body composition
-                                        <label class="radio-inline mb-2 ">
-                                            <input type="radio" name="optradio" checked> 1
-                                          </label>
-                                          <label class="radio-inline mb-2">
-                                            <input type="radio" name="optradio"> 2
-                                          </label>
-                                          <label class="radio-inline m">
-                                            <input type="radio" name="optradio"> 3
-                                          </label>
-                                          <label class="radio-inline">
-                                            <input type="radio" name="optradio"> 4
-                                          </label>
-                                          <label class="radio-inline ">
-                                            <input type="radio" name="optradio"> 5
-                                          </label>
                                         
-                                        </div>
-                                        <div class="form-group row ">
-                                            Present nutrition/eating habits
-                                            <label class="radio-inline mb-2 ">
-                                                <input type="radio" name="optradio" checked> 1
-                                              </label>
-                                              <label class="radio-inline mb-2">
-                                                <input type="radio" name="optradio"> 2
-                                              </label>
-                                              <label class="radio-inline mb-2">
-                                                <input type="radio" name="optradio"> 3
-                                              </label>
-                                              <label class="radio-inline mb-2">
-                                                <input type="radio" name="optradio"> 4
-                                              </label>
-                                              <label class="radio-inline mb-2">
-                                                <input type="radio" name="optradio"> 5
-                                              </label>
-                                            
-                                            </div>
-                                            <div class="form-group row ">
-                                                Present athletic ability
-                                                <label class="radio-inline mb-2 ">
-                                                    <input type="radio" name="optradio" checked> 1
-                                                  </label>
-                                                  <label class="radio-inline mb-2">
-                                                    <input type="radio" name="optradio"> 2
-                                                  </label>
-                                                  <label class="radio-inline mb-2">
-                                                    <input type="radio" name="optradio"> 3
-                                                  </label>
-                                                  <label class="radio-inline mb-2">
-                                                    <input type="radio" name="optradio"> 4
-                                                  </label>
-                                                  <label class="radio-inline mb-2">
-                                                    <input type="radio" name="optradio"> 5
-                                                  </label>
-                                                
+                                            <div class="form-group row">
+                                                <label for="bodycomp" class="col-md-2 col-form-label">Current body composition</label>
+                                                <div class="col-md-1">
+                                                    <input type="text" class="form-control" id="bodycomp" name="bodycomp" width="10" required>
                                                 </div>
-                                                <div class="form-group row ">
-                                                    Present cardiovascular capacity
-                                                    <label class="radio-inline mb-2 ">
-                                                        <input type="radio" name="optradio" checked> 1
-                                                      </label>
-                                                      <label class="radio-inline mb-2">
-                                                        <input type="radio" name="optradio"> 2
-                                                      </label>
-                                                      <label class="radio-inline mb-2">
-                                                        <input type="radio" name="optradio"> 3
-                                                      </label>
-                                                      <label class="radio-inline mb-2">
-                                                        <input type="radio" name="optradio"> 4
-                                                      </label>
-                                                      <label class="radio-inline mb-2">
-                                                        <input type="radio" name="optradio"> 5
-                                                      </label>
-                                                    
+                                                <label for="presenteat" class="col-md-2 col-form-label">Present nutrition/eating habits</label>
+                                                <div class="col-md-1">
+                                                    <input type="text" class="form-control" id="presenteat" name="presenteat" width="10" required>
+                                                </div>
+                                                <label for="presentability" class="col-md-2 col-form-label">Present athletic ability</label>
+                                                <div class="col-md-1">
+                                                    <input type="text" class="form-control" id="presentability" name="presentability" width="10" required>
+                                                </div>
+                                            </div>
+                                            
+                                                <div class="form-group row">
+                                                    <label for="presentcardio" class="col-md-2 col-form-label">Present cardiovascular capacity</label>
+                                                    <div class="col-md-1">
+                                                        <input type="text" class="form-control" id="presentcardio" name="presentcardio" width="10" required>
                                                     </div>
-                                                    <div class="form-group row ">
-                                                        Present muscular/strength
-                                                        <label class="radio-inline mb-2 ">
-                                                            <input type="radio" name="optradio" checked> 1
-                                                          </label>
-                                                          <label class="radio-inline mb-2">
-                                                            <input type="radio" name="optradio"> 2
-                                                          </label>
-                                                          <label class="radio-inline mb-2">
-                                                            <input type="radio" name="optradio"> 3
-                                                          </label>
-                                                          <label class="radio-inline mb-2">
-                                                            <input type="radio" name="optradio"> 4
-                                                          </label>
-                                                          <label class="radio-inline mb-2">
-                                                            <input type="radio" name="optradio"> 5
-                                                          </label>
-                                                        
-                                                        </div>
-                                                        <div class="form-group row ">
-                                                            Present flexibility capacity
-                                                            <label class="radio-inline mb-2 ">
-                                                                <input type="radio" name="optradio" checked> 1
-                                                              </label>
-                                                              <label class="radio-inline mb-2">
-                                                                <input type="radio" name="optradio"> 2
-                                                              </label>
-                                                              <label class="radio-inline mb-2">
-                                                                <input type="radio" name="optradio"> 3
-                                                              </label>
-                                                              <label class="radio-inline mb-2">
-                                                                <input type="radio" name="optradio"> 4
-                                                              </label>
-                                                              <label class="radio-inline mb-2">
-                                                                <input type="radio" name="optradio"> 5
-                                                              </label>
+                                                    <label for="presentflex" class="col-md-2 col-form-label">Present flexibility capacity</label>
+                                                    <div class="col-md-1">
+                                                        <input type="text" class="form-control" id="presentflex" name="presentflex" width="10" required>
+                                                    </div>
+                                                    <label for="presentqual" class="col-md-2 col-form-label">Present quality of your sleep habits</label>
+                                                    <div class="col-md-1">
+                                                        <input type="text" class="form-control" id="presentqual" name="presentqual" width="10" required>
+                                                    </div>
+                                                </div>
+                                            
                                                             
-                                                            </div>
-                                                            <div class="form-group row ">
-                                                                Present quality of your sleeping habits
-                                                                <label class="radio-inline mb-2 ">
-                                                                    <input type="radio" name="optradio" checked> 1
-                                                                  </label>
-                                                                  <label class="radio-inline mb-2">
-                                                                    <input type="radio" name="optradio"> 2
-                                                                  </label>
-                                                                  <label class="radio-inline mb-2">
-                                                                    <input type="radio" name="optradio"> 3
-                                                                  </label>
-                                                                  <label class="radio-inline mb-2">
-                                                                    <input type="radio" name="optradio"> 4
-                                                                  </label>
-                                                                  <label class="radio-inline mb-2">
-                                                                    <input type="radio" name="optradio"> 5
-                                                                  </label>
-                                                                
-                                                                </div>
                                                                 <div class="form-group row">
-                                                                    <label for="feedback" class="col-md-* col-form-label"> 4. How much time are you able to devote to your health and fitness goals?</label></div>
+                                                                    <label for="timedev" class="col-md-* col-form-label"> 4. How much time are you able to devote to your health and fitness goals?</label></div>
                                                                 <div class="form-group row">
                                                                     <div class="col-md-4">
                                                                         <input type="text" class="form-control" id="minpday" name="minpday" placeholder="min/day." required></div>
                                                                     <div class="col-md-4"> <input type="text" class="form-control" id="daypweek" name="daypweek" placeholder="days/week." required>
                                                                     </div></div>
                                                                     <div class="form-group row">
-                                                                    <label for="feedback" class="col-md-* col-form-label"> 5. When is the best time of day for your workouts</label></div>
+                                                                    <label for="besttime" class="col-md-* col-form-label"> 5. When is the best time of day for your workouts</label></div>
                                                                 <div class="form-group row">
                                                                     <div class="col-md-4">
-                                                                        <input type="text" class="form-control" id="minpday" name="minpday" placeholder="am." required></div>
-                                                                    <div class="col-md-4"> <input type="text" class="form-control" id="daypweek" name="daypweek" placeholder="mid day." required>
+                                                                        <input type="text" class="form-control" id="am" name="am" placeholder="am." required></div>
+                                                                    <div class="col-md-4"> <input type="text" class="form-control" id="midday" name="midday" placeholder="mid day." required>
                                                                     </div>
-                                                                    <div class="col-md-4"> <input type="text" class="form-control" id="daypweek" name="daypweek" placeholder="pm" required></div>
+                                                                    <div class="col-md-4"> <input type="text" class="form-control" id="pm" name="pm" placeholder="pm" required></div>
                                                                 
                                     </div>
                                     <div class="form-group row">
                                         <label>
                                         6. Check all types of execises/programs that interest you?</label></div>
                                         <div class="form-check form-group row " id="ready">
-                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Strength Training</label>
+                                        <div class="col-md-2"><input name="strength" type="checkbox" class="form-check-input padding-sm " value="strength"><label class="padding-sm"> Strength Training</label>
                                         </div>
-                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Core Training</label>
+                                        <div class="col-md-2"><input name="core" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Core Training</label>
                                         </div>
-                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Flexibility</label>
+                                        <div class="col-md-2"><input name="flexib" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Flexibility</label>
                                         </div>
-                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Cardio</label>
+                                        <div class="col-md-2"><input name="cardio" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Cardio</label>
                                         </div>
-                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Quick Fit(30min)</label>
+                                        <div class="col-md-2"><input name="quickfit" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Quick Fit(30min)</label>
                                         </div>
-                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Bootcamps/Groups</label>
+                                        <div class="col-md-2"><input name="bootcamp" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Bootcamps/Groups</label>
                                         </div>
                                     </div>
                                     <div class="form-check form-group row " id="ready">
-                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Yoga/Pilates</label>
+                                        <div class="col-md-2"><input name="yoga" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Yoga/Pilates</label>
                                         </div>
-                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Stationary Bike</label>
+                                        <div class="col-md-2"><input name="stationary" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Stationary Bike</label>
                                         </div>
-                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Jogging</label>
+                                        <div class="col-md-2"><input name="jogging" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Jogging</label>
                                         </div>
-                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Sport Specific</label>
+                                        <div class="col-md-2"><input name="sportspecific" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Sport Specific</label>
                                         </div>
-                                        <div class="col-md-4"><input name="activity" type="text" placeholder="Other favourites, please specify"></div>
+                                        <div class="col-md-4"><input name="otherfave" type="text" placeholder="Other favourites, please specify"></div>
                                         </div>
                                         <div class="form-group row">
                                             <div class="col-12"><label>7. How many times per day do you eat(including snacks)?</label></div>
-                                            <div class="col-12"> <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> </div>
+                                            <div class="col-12"> <textarea class="form-control" id="timeseat" name="timeseat" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> </div>
                                         </div>
                                         <div class="form-group row">
-                                            <div class="col-12"><label>8. Are you currently taking multivitamins or other supplements</label> <input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"></div>
+                                            <div class="col-12"><label>8. Are you currently taking multivitamins or other supplements</label> <input name="multivitamins" type="checkbox" class="form-check-input padding-sm " value="sitting"></div>
                                         </div>
                                         <div class="form-group row">
-                                            <div class="col-md-6"><label>9. How much water do you drink daily?</label> </div><div class="col-md-6"><input class="form-control" type="text"></div></div>
+                                            <div class="col-md-6"><label>9. How much water do you drink daily?</label> </div><div class="col-md-6"><input class="form-control"  name="water" type="text"></div></div>
                                         
                                         <div class="form-group row">
                                         
@@ -535,98 +434,98 @@
                                             <div class="col-12"><label>10. Do you have a workout partner or support systems inside/outside of the gym?</label> <input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"></div>
                                         </div>
                                         <div class="form-group row">
-                                            <div class="col-md-6"><input class="form-control" type="text" placeholder="If yes, then who?"></div>
-                                            <div class="col-md-6"><input class="form-control" type="text" placeholder="Are they currently a member"></div>
+                                            <div class="col-md-6"><input name="partner"class="form-control" type="text" placeholder="If yes, then who?"></div>
+                                            <div class="col-md-6"><input name="currentmem" class="form-control" type="text" placeholder="Are they currently a member"></div>
                                         
                                         </div>
                                         <div class="form-group-row">
                                         <label> 11. Use the following scale to rate each goal separately: 1 (Not at all important) to 5 (Very important)</label>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="emailid" class="col-md-2 col-form-label">Improve heart health</label>
+                                            <label for="improveheart class="col-md-2 col-form-label">Improve heart health</label>
                                             <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                                <input type="text" class="form-control" id="improveheart" name="improveheart" width="10" required>
                                             </div>
-                                            <label for="emailid" class="col-md-2 col-form-label">Body-fat reduction</label>
+                                            <label for="bodyfatred" class="col-md-2 col-form-label">Body-fat reduction</label>
                                             <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                                <input type="text" class="form-control" id="bodyfatred" name="bodyfatred" width="10" required>
                                             </div>
-                                            <label for="emailid" class="col-md-2 col-form-label">Reshape or tone my body</label>
+                                            <label for="reshape" class="col-md-2 col-form-label">Reshape or tone my body</label>
                                             <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="emailid" class="col-md-2 col-form-label">Improve performance for a sport</label>
-                                            <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
-                                            </div>
-                                            <label for="emailid" class="col-md-2 col-form-label">Improve mood and ability to cope with stress</label>
-                                            <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
-                                            </div>
-                                            <label for="emailid" class="col-md-2 col-form-label">Improve flexibility posture</label>
-                                            <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                                <input type="text" class="form-control" id="reshape" name="reshape" width="10" required>
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="emailid" class="col-md-2 col-form-label">Increase Strength</label>
+                                            <label for="improveperf" class="col-md-2 col-form-label">Improve performance for a sport</label>
                                             <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                                <input type="text" class="form-control" id="improveperf" name="improveperf" width="10" required>
                                             </div>
-                                            <label for="emailid" class="col-md-2 col-form-label">Increase energy level</label>
+                                            <label for="improvemood" class="col-md-2 col-form-label">Improve mood and ability to cope with stress</label>
                                             <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                                <input type="text" class="form-control" id="improvemood" name="improvemood" width="10" required>
                                             </div>
-                                            <label for="emailid" class="col-md-2 col-form-label">Decrease Stress</label>
+                                            <label for="improveflex" class="col-md-2 col-form-label">Improve flexibility posture</label>
                                             <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                                <input type="text" class="form-control" id="improveflex" name="improveflex" width="10" required>
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="emailid" class="col-md-2 col-form-label">Increase metabolism</label>
+                                            <label for="increasestr" class="col-md-2 col-form-label">Increase Strength</label>
                                             <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                                <input type="text" class="form-control" id="increasestr" name="increasestr" width="10" required>
                                             </div>
-                                            <label for="emailid" class="col-md-2 col-form-label">Feel better</label>
+                                            <label for="increaseenerg" class="col-md-2 col-form-label">Increase energy level</label>
                                             <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                                <input type="text" class="form-control" id="increaseenerg" name="increaseenerg" width="10" required>
                                             </div>
-                                            <label for="emailid" class="col-md-2 col-form-label">Other, specify</label>
+                                            <label for="decstress" class="col-md-2 col-form-label">Decrease Stress</label>
                                             <div class="col-md-1">
-                                                <input type="email" class="form-control" id="emailid" name="emailid" width="20" required>
+                                                <input type="text" class="form-control" id="decstress" name="decstress" width="10" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="incmetab" class="col-md-2 col-form-label">Increase metabolism</label>
+                                            <div class="col-md-1">
+                                                <input type="text" class="form-control" id="incmetab" name="incmetab" width="10" required>
+                                            </div>
+                                            <label for="feelbetter" class="col-md-2 col-form-label">Feel better</label>
+                                            <div class="col-md-1">
+                                                <input type="text" class="form-control" id="feelbetter" name="feelbetter" width="10" required>
+                                            </div>
+                                            <label for="otherspec" class="col-md-2 col-form-label">Other, specify</label>
+                                            <div class="col-md-1">
+                                                <input type="text" class="form-control" id="otherspec" name="otherspec" width="20" required>
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                         <label> 12. What is your #1 goal?</label>
-                                        <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> 
+                                        <textarea class="form-control" id="maingoal" name="maingoal" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> 
                                         
                                         </div>
                                         <div class="form-group row">
                                             <label> 13. By when do you want to accomplish your goal? </label>
-                                            <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
+                                            <textarea class="form-control" id="goaldeadline" name="goaldeadline rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="drname" class="col-md-2 "> 14. Current weight</label>
+                                            <label for="currwt" class="col-md-2 "> 14. Current weight</label>
                                             <div class="col-md-2">
-                                                <input type="text" class="form-control" id="drname" name="drname" placeholder="lbs" required>
+                                                <input type="text" class="form-control" id="currwt" name="currwt" placeholder="lbs" required>
                                             </div>
                                             <div class="col-md-2">
-                                                <input type="text" class="form-control" id="drphone" name="drphone" placeholder="= (+) or (-)" required>
+                                                <input type="text" class="form-control" id="approx" name="approx" placeholder="= (+) or (-)" required>
                                             </div>
-                                            <label for="drname" class="col-md-2 ">Goal weight</label>
+                                            <label for="goalwt" class="col-md-2 ">Goal weight</label>
                                             <div class="col-md-2">
-                                                <input type="text" class="form-control" id="drfax" name="drfax" placeholder="lbs" >
+                                                <input type="text" class="form-control" id="goalwt" name="goalwt" placeholder="lbs" >
                                             </div>
                                             <div class="form-group row">
                                                 <label> 15. What other specific areas would you like to focus on?</label>
-                                                <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> 
+                                                <textarea class="form-control" id="specareas" name="specareas" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> 
                                                 
                                                 </div>
                                                 <div class="form-group row">
                                                     <label> 16. Do you have an exact plan for achieving these goals? If so, please explain.</label>
-                                                    <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> 
+                                                    <textarea class="form-control" id="achieveplan" name="achieveplan" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> 
                                                     
                                                     </div>   
 
@@ -634,144 +533,9 @@
                                         
                                         
                                     </div>
-                                    <div class="tab1">
-                                        <div class="col-12">
-                                            <u><p>Availability</p></u>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="availability" class="col-md-2 col-form-label">Sunday</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="sf" class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                            <label for="availability" class="col-md-1 col-form-label  text-center">TO</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="st" class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="availability" class="col-12 col-md-2 col-form-label">Monday</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="mf"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="mt"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="availability" class="col-12 col-md-2 col-form-label">Tuesday</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="tf"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="tt"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="availability"  class="col-12 col-md-2 col-form-label">Wednesday</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="wf"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="wt"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="availability" class="col-12 col-md-2 col-form-label">Thursday</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="thf"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="tht"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="availability"  class="col-12 col-md-2 col-form-label">Friday</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="ff"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="ft"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="availability" class="col-12 col-md-2 col-form-label">Saturday</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="saf"  class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
-                                            <div class="col-md-2 col-md-offset-0">
-                                                <input type="text" id="sat" class="form-control floating-label" placeholder="Time">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab1">
-                                        <div class="form-group row">
-                                            <label for="experience" class="col-md-2 col-form-label">Your Rate</label>
-                                            <div class="col-md-2">
-                                                <select class="form-control" required>
-                                                             <option>USD($)</option>
-                                                             <option>CAD</option>
-                                                         </select>
-                                            </div>
-                                            <div class="col-md-3 col-md-offset-0">
-                                                <input type="number" min="5" class="form-control" id="ratef" name="ratef" placeholder="60" required>
-                                            </div>
-                                            <div class="col-md-3 col-md-offset-0">
-                                                <input type="number" min="10" class="form-control" id="ratet" name="ratet" placeholder="80" required>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row">
-                                            <label for="cpassword" class="col-sm-2 col-form-label">Payment Methods</label>
-                                            <div class="col-sm-10">
-                                                <div class="form-check" id="prog">
-                                                    <p class="col-12 col-sm-6"><label class="padding-sm">Cash</label><input type="checkbox" class="form-check-input padding-sm" value="Cash" checked></p>
-                                                    <p class="col-12 col-sm-6"><label class="padding-sm">Cashier Check</label><input type="checkbox" class="form-check-input padding-sm" value="Cashier Check"></p>
-                                                    <p class="col-12 col-sm-6"><label class="padding-sm">Card</label><input type="checkbox" class="form-check-input padding-sm" value="Card"></p>
-                                                    <p class="col-12 col-sm-6"><label class="padding-sm">Personal Check</label><input type="checkbox" class="form-check-input" value="Personal Check"></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab1">
-
-                                        <div class="form-group row">
-                                            <div class="col-md-2">
-                                                <div class="form-check">
-                                                    <label class="form-check-label" for="approve">
-                                                             <strong>May we contact you?</strong>
-                                                         </label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <select class="form-control">
-                                                         <option>Yes</option>
-                                                         <option>No</option>
-                                                     </select>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <select class="form-control">
-                                                             <option>Tel.</option>
-                                                             <option>Email</option>
-                                                         </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="feedback" class="col-md-2 col-form-label">Any Message For Us?</label>
-                                            <div class="col-md-10">
-                                                <textarea class="form-control" id="feedback" name="feedback" rows="4" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row text-center">
-                                        <div class="col-md-10 col-md-offset-2">
-                                            <button type="submit" href="{{ url_for('addTrainer') }}" class="btn btn-primary">Send Feedback</button>
-                                        </div>
+                                    
+                                    
+                                    
   
                                 </form>
                                 </div>
