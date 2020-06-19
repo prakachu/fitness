@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fitness Trainers Network : Find a Fitness Trainer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fitness Trainers network is a network of professional and certified fitness trainers all around North America and ready to get you back in shape. If you are suffering from obesity, injuries, dietary issues, and any other ailments, our trainers are here to help. We are focused on your well being and our goals is to focus on making you healthy. You can hire any of our trainers located close to your zip code and schedule an assessment to determine the best course of action for your fitness routine. The first step always starts with you, so get it done."
+    />
+    <meta name="keywords" content="Fitness, USA, Canada, Training, Gym, Trainer, Cycle, Yoga, Yoga Programs, Programs, Body Building, Dr Dan, Body, Building, Boxing Fitness, Boxing, Fitness, Personal Trainer, moving, accredited moving,
+	 fitness, business consulting, leverage acquisition, government contracting, publishing, dating, coaching, accredited relocation businesses for USA and Canada" />
+    <meta name="author" content="http://arijitdhar.com" />
+    <meta name="publisher" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta name="copyright" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta name="rating" content="General" />
+    <meta http-equiv="Reply-to" content="info@fitnesstrainersnetwork.com" />
+    <meta name="creation_Date" content="07/11/2018" />
+    <meta name="expires" content="07/11/2031" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="doc-rights" content="Copywritten work" />
+    <meta name="doc-class" content="Completed" />
+    <meta name="robots" content="index, nofollow" />
+
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="Fitness Trainers Network : Find a Fitness Trainer" />
+    <meta property="og:image" content="images/logo.png" />
+    <meta property="og:url" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta property="og:site_name" content="fitnesstrainersnetwork" />
+    <meta property="og:description" content="Fitness Trainers network is a network of professional and certified fitness trainers all around North America and ready to get you back in shape. If you are suffering from obesity, injuries, dietary issues, and any other ailments, our trainers are here to help. We are focused on your well being and our goals is to focus on making you healthy. You can hire any of our trainers located close to your zip code and schedule an assessment to determine the best course of action for your fitness routine. The first step always starts with you, so get it done."
+    />
+    <meta name="twitter:title" content="Fitness Trainers Network : Find a Fitness Trainer" />
+    <meta name="twitter:image" content="images/logo.png" />
+    <meta name="twitter:url" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta name="twitter:card" content="fitnesstrainersnetwork" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.png') }}">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900" rel="stylesheet" type="text/css">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <!-- Superfish -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/superfish.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+    
+
+    <!-- Modernizr JS -->
+    <script src="{ url_for('static', filename='js/modernizr-2.6.2.min.js') }}"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <div id="fh5co-wrapper">
+        <div id="fh5co-page">
+            <div id="fh5co-header">
+                <header id="fh5co-header-section">
+                    <div class="container">
+                        <div class="nav-header">
+                            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                            <h1 id="fh5co-logo">
+                                <a href="{{ url_for('index') }}"><img src=href="{{ url_for('static', filename='images/logo.png') }}" alt="Fitness Trainers Network" height="170px" width="170px"></a>
+                            </h1>
+                            <!-- START #fh5co-menu-wrap -->
+                            <nav id="fh5co-menu-wrap" role="navigation">
+                                <ul class="sf-menu" id="fh5co-primary-menu">
+                                    <li>
+                                        <a href="{{ url_for('index') }}">Home</a>
+                                    </li>
+                                    <li><a href="{{ url_for('programs') }}">Programs</a></li>
+                                    <!-- <li><a href="trainer.html">Find A Trainer</a></li>
+                                        <li><a href="join.html">Become A Trainer</a></li> -->
+                                    <li><a href="{{ url_for('allServices') }}">All Services</a></li>
+                                    <li class="active"><a href="{{ url_for('about') }}">About FTN</a></li>
+                                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                                    <li><a class="btn btn-success mr-auto">Join with Us</a>
+                                        <ul class="fh5co-sub-menu">
+                                            <li><a href="{{ url_for('trainers') }}">Find A Trainer</a></li>
+                                            <li><a href="{{ url_for('joinTrainer') }}">Become A Trainer</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <!-- end:fh5co-header -->
+            <div class="fh5co-parallax" style="background-image: url(images/home-image-3.jpg);" data-stellar-background-ratio="0.5">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
+                            <div class="fh5co-intro fh5co-table-cell animate-box">
+                                <h1 class="text-center">Contact Us</h1>
+                                <p>We are here to help you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end: fh5co-parallax -->
+            <!-- end:fh5co-hero -->
+            <div id="fh5co-contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 animate-box">
+                            <h3 class="section-title">Our Address</h3>
+                            <p>Fitness Trainers network is a network of professional and certified fitness trainers all around North America and ready to get you back in shape. If you are suffering from obesity, injuries, dietary issues, and any other ailments,
+                                our trainers are here to help. We are focused on your well being and our goals is to focus on making you healthy. You can hire any of our trainers located close to your zip code and schedule an assessment to determine the
+                                best course of action for your fitness routine. The first step always starts with you, so get it done
+                            </p>
+                            <ul class="contact-info">
+                                <li><i class="icon-phone2"></i><a href="tel:+1-877-963-7283">+1-877-963-7283</a></li>
+                                <li><i class="icon-mail"></i><a href="mailto:info@fitnesstrainersnetwork.com">info@fitnesstrainersnetwork.com</a></li>
+                                <li><i class="icon-globe2"></i><a href="http://www.fitnesstrainersnetwork.com/">www.fitnesstrainersnetwork.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <form action="sendcontact.html" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="fname" class="form-control" placeholder="First Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="lname" class="form-control" placeholder="Last Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                                    </div>
+                                </div>
+								<div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="number" name="phno" class="form-control" placeholder="Contact Number" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="comments" class="form-control" id="" cols="30" rows="7" placeholder="Message" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="submit" name="submit" value="Send Message" class="btn btn-primary">
+                                    </div>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div id="footer">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-6 col-sm-6 col-md-4 col-md-offset-2">
+                                <span><a href="trainer.html" class="btn">Find a Trainer</a></span>
+                            </div>
+                            <div class="col-6 col-sm col-md-4">
+                                <span><a href="join.html" class="btn">Become a Trainer</a></span>
+                            </div>
+                        </div>
+                        <div class="row copy-right">
+                            <div class="col-md-6 col-md-offset-3 text-center">
+                                <p class="fh5co-social-icons">
+                                    <a href="https://www.facebook.com/fitnesstrainers/"><i class="icon-facebook2"></i></a>
+                                    <a href=""><i class="icon-youtube"></i></a>
+                                </p>
+                                <p>Copyright 2019 <a href="http://www.fitnesstrainersnetwork.com/">fitnesstrainersnetwork</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://arijitdhar.com/" target="_blank">Arijit Dhar</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+
+
+
+ <!-- jQuery -->
+    
+
+ <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+ <!-- jQuery Easing -->
+ <script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+ <!-- Bootstrap -->
+ <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+ <!-- Waypoints -->
+ <script src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+ <!-- Stellar -->
+ <script src="{{ url_for('static', filename='js/jquery.stellar.min.js') }}"></script>
+ <!-- Superfish -->
+ <script src="{{ url_for('static', filename='js/hoverIntent.js') }}"></script>
+ <script src="{{ url_for('static', filename='js/superfish.js') }}"></script>
+
+ <!-- Main JS (Do not remove) -->
+ <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>

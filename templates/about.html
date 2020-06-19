@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fitness Trainers Network : Find a Fitness Trainer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fitness Trainers network is a network of professional and certified fitness trainers all around North America and ready to get you back in shape. If you are suffering from obesity, injuries, dietary issues, and any other ailments, our trainers are here to help. We are focused on your well being and our goals is to focus on making you healthy. You can hire any of our trainers located close to your zip code and schedule an assessment to determine the best course of action for your fitness routine. The first step always starts with you, so get it done."
+    />
+    <meta name="keywords" content="Fitness, USA, Canada, Training, Gym, Trainer, Cycle, Yoga, Yoga Programs, Programs, Body Building, Dr Dan, Body, Building, Boxing Fitness, Boxing, Fitness, Personal Trainer, moving, accredited moving,
+	 fitness, business consulting, leverage acquisition, government contracting, publishing, dating, coaching, accredited relocation businesses for USA and Canada" />
+    <meta name="author" content="http://arijitdhar.com" />
+    <meta name="publisher" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta name="copyright" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta name="rating" content="General" />
+    <meta http-equiv="Reply-to" content="info@fitnesstrainersnetwork.com" />
+    <meta name="creation_Date" content="07/11/2018" />
+    <meta name="expires" content="07/11/2031" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="doc-rights" content="Copywritten work" />
+    <meta name="doc-class" content="Completed" />
+    <meta name="robots" content="index, nofollow" />
+
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="Fitness Trainers Network : Find a Fitness Trainer" />
+    <meta property="og:image" content="images/logo.png" />
+    <meta property="og:url" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta property="og:site_name" content="fitnesstrainersnetwork" />
+    <meta property="og:description" content="Fitness Trainers network is a network of professional and certified fitness trainers all around North America and ready to get you back in shape. If you are suffering from obesity, injuries, dietary issues, and any other ailments, our trainers are here to help. We are focused on your well being and our goals is to focus on making you healthy. You can hire any of our trainers located close to your zip code and schedule an assessment to determine the best course of action for your fitness routine. The first step always starts with you, so get it done."
+    />
+    <meta name="twitter:title" content="Fitness Trainers Network : Find a Fitness Trainer" />
+    <meta name="twitter:image" content="images/logo.png" />
+    <meta name="twitter:url" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta name="twitter:card" content="fitnesstrainersnetwork" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.png') }}">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900" rel="stylesheet" type="text/css">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <!-- Superfish -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/superfish.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+
+    <!-- Modernizr JS -->
+    <script src="{{ url_for('static', filename='js/modernizr-2.6.2.min.js') }}"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <div id="fh5co-wrapper">
+        <div id="fh5co-page">
+            <div id="fh5co-header">
+                <header id="fh5co-header-section">
+                    <div class="container">
+                        <div class="nav-header">
+                            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                            <h1 id="fh5co-logo">
+                                <a href="{{ url_for('index') }}"><img src=href="{{ url_for('static', filename='images/logo.png') }}" alt="Fitness Trainers Network" height="170px" width="170px"></a>
+                            </h1>
+                            <!-- START #fh5co-menu-wrap -->
+                            <nav id="fh5co-menu-wrap" role="navigation">
+                                <ul class="sf-menu" id="fh5co-primary-menu">
+                                    <li>
+                                        <a href="{{ url_for('index') }}">Home</a>
+                                    </li>
+                                    <li><a href="{{ url_for('programs') }}">Programs</a></li>
+                                    <!-- <li><a href="trainer.html">Find A Trainer</a></li>
+                                        <li><a href="join.html">Become A Trainer</a></li> -->
+                                    <li><a href="{{ url_for('allServices') }}">All Services</a></li>
+                                    <li class="active"><a href="{{ url_for('about') }}">About FTN</a></li>
+                                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                                    <li><a class="btn btn-success mr-auto">Join with Us</a>
+                                        <ul class="fh5co-sub-menu">
+                                            <li><a href="{{ url_for('trainers') }}">Find A Trainer</a></li>
+                                            <li><a href="{{ url_for('joinTrainer') }}">Become A Trainer</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <!-- end:fh5co-header -->
+            <div class="fh5co-parallax" style="background-image: url(images/aboutus.jpeg);" data-stellar-background-ratio="0.5">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
+                            <div class="fh5co-intro fh5co-table-cell animate-box">
+                                <h1 class="text-center">About Us</h1>
+                                <p>WHO WE ARE, WHAT WE DO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end: fh5co-parallax -->
+            <!-- end:fh5co-hero -->
+            <div id="fh5co-team-section">
+                <div class="container">
+                    <div class="row about">
+                        <div class="col-md-12 col-md-offset-0 animate-box">
+                            <h3>
+                                <p>
+                                    <b><center>WHO WE ARE, WHAT WE DO</center></b>
+                                </p>
+                            </h3>
+                            <p>
+                                In today’s major health issues regarding children obesity and the high rate of unhealthy Americans, we, at Fitness Trainers Network saw the demands regarding creating a network of fitness professionals from personal trainers to nutritionist, dietitian,
+                                and are all accredited from their recognized associations.
+                                <br><br> With Fitness Trainers Network, you can only find the best in the industry. You are either an individual looking for a change in your life, such as life coach, or personal trainers, or even dietician, you can find
+                                it here.
+                                <br><br> For gym owners, you are looking for classes to add in your schedule, such as yoga instructors, pilates, or even spin classes, you can also find it here at Fitness Trainers Network. So go ahead, do not hesitate
+                                to ask or search for the appropriate specialties on our site, whatever you are looking for, you will find it.
+                                <br><br> Our fitness professionals will get the job done. They are all certified trainers, all accredited and are focus on making a change. They are dedicated to their work and want to get you in tip top shape. They are
+                                great motivator, and will make sure you end up very happy with your work-out. Fitness Trainers Network do not DUMP trainers on you. After you’ve requested the help of a trainer within your radius, we will send not ONE,
+                                but several trainers for you to choose from. We want YOU to make YOUR own choice. All the trainers will provide you with great results, but we leave it to you to choose a trainer that you see fit to fill your goals and
+                                objective.
+                                <br><br> Remember, it is not just about the knowledge of these trainers, but their personality that fits yours. Our matching process will be providing you with the best trainers in your neighborhood, but we leave it to
+                                you to make your choice among the best trainers in your state. We cover all of USA and CANADA. All our trainers can train you wherever you need, whatever time you select with them. All cities that we cover are presented
+                                on the website for you to navigate. You can select your area and can request where you want to be trained. Our selection process is thorough. We make sure to have all trainers certification up to date and make sure they
+                                do get their continuing education credits from their accredited associations. There is no space for mistake, we ONLY make sure to get the best and refer you with the best. Fitness Trainers Network also provides other services
+                                such as life coaching, business coaching, and several other specialty training offered on the site. So go ahead, navigate through our site and you will see the great benefits to select our personal trainers from Fitness
+                                Trainers Network.
+                                <br><br> We are your ONE STOP SHOP personal training website in North America. Our site has its own blog, where our trainers can write articles about health and fitness to keep you abreast to all new changes happening in
+                                this industry. We have articles and updates about what new trainers have joined our network, their specialties, etc.. so you are continuously updated with what is happening on the network. We also have products sold on
+                                our site from renowned health supplements providers in North America.
+                                <br><br> We provide great service all year round, since getting or staying in shape is a lifetime dedication. We hope to meet all your goals and objectives at FTN and wish you the best.
+                                <br><br> Sincerely, <br>
+                                <b>Dan Amzallag</b> <br> CEO, Fitness Trainers Network<br> Personal Trainer with NASM
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="heading-section text-center animate-box">
+                                <h2>Meet Our Trainers</h2>
+                                <p>Find best trainers around you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="team-section-grid animate-box" style="background-image: url(images/trainer1.jpeg);">
+                                <div class="overlay-section">
+                                    <div class="desc">
+                                        <h3>John Doe</h3>
+                                        <span>Body Trainer</span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                        <p class="fh5co-social-icons">
+                                            <a href="#"><i class="icon-facebook-with-circle"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-earphone"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="team-section-grid animate-box" style="background-image: url(images/trainer2.jpeg);">
+                                <div class="overlay-section">
+                                    <div class="desc">
+                                        <h3>James Smith</h3>
+                                        <span>Swimming Trainer</span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                        <p class="fh5co-social-icons">
+                                            <a href="#"><i class="icon-facebook-with-circle"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-earphone"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="team-section-grid animate-box" style="background-image: url(images/trainer3.jpeg);">
+                                <div class="overlay-section">
+                                    <div class="desc">
+                                        <h3>John Doe</h3>
+                                        <span>Chief Executive Officer</span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p class="fh5co-social-icons">
+                                            <a href="#"><i class="icon-facebook-with-circle"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-earphone"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="team-section-grid animate-box" style="background-image: url(images/trainer4.jpeg);">
+                                <div class="overlay-section">
+                                    <div class="desc">
+                                        <h3>John Doe</h3>
+                                        <span>Chief Executive Officer</span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p class="fh5co-social-icons">
+                                            <a href="#"><i class="icon-facebook-with-circle"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-earphone"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="team-section-grid animate-box" style="background-image: url(images/trainer5.jpeg);">
+                                <div class="overlay-section">
+                                    <div class="desc">
+                                        <h3>John Doe</h3>
+                                        <span>Chief Executive Officer</span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p class="fh5co-social-icons">
+                                            <a href="#"><i class="icon-facebook-with-circle"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-earphone"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="team-section-grid animate-box" style="background-image: url(images/trainer6.jpeg);">
+                                <div class="overlay-section">
+                                    <div class="desc">
+                                        <h3>John Doe</h3>
+                                        <span>Chief Executive Officer</span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p class="fh5co-social-icons">
+                                            <a href="#"><i class="icon-facebook-with-circle"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
+                                            <a href="#"><i class="glyphicon glyphicon-earphone"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fh5co-programs-section" class="fh5co-lightgray-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="heading-section text-center animate-box">
+                                <h2>Our Programs</h2>
+                                <p>Best programs in town.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="program animate-box">
+                                <img src="images/instructions(1).svg" alt="Fitness Instruction">
+                                <h3>Fitness Instruction</h3>
+                                <p>Focus on your overall fitness that enhances your health and everyday life.</p>
+                                <span><a href="#" class="btn btn-default">Join Now</a></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="program animate-box">
+                                <img src="images/lotus-position.svg" alt="Yoga Programs">
+                                <h3>Yoga Programs</h3>
+                                <p>Exercises based on breathing, meditation and bodily postures for better health as well as relaxation.</p>
+                                <span><a href="#" class="btn btn-default">Join Now</a></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="program animate-box">
+                                <img src="images/thanksgiving.svg" alt="Nutrition">
+                                <h3>Nutrition</h3>
+                                <p>You are what you eat. Nutrition is one of the three key ingredients in all forms of training.</p>
+                                <span><a href="#" class="btn btn-default">Join Now</a></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="program animate-box">
+                                <img src="images/yoga.svg" alt="Pilates">
+                                <h3>Pilates</h3>
+                                <p>Simple exercises to improve your physical strength, flexibility, and posture.</p>
+                                <span><a href="#" class="btn btn-default">Join Now</a></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="program animate-box">
+                                <img src="images/presentation.svg" alt="Personal Training">
+                                <h3>Personal Training</h3>
+                                <p>Build those muscles you have always wanted or shred those extra pounds.</p>
+                                <span><a href="#" class="btn btn-default">Join Now</a></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="program animate-box">
+                                <img src="images/massage.svg" alt="Massage Therapy">
+                                <h3>Massage Therapy</h3>
+                                <p>Manual manipulation of soft body tissues to enhance your health and well-being.</p>
+                                <span><a href="#" class="btn btn-default">Join Now</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class=" text-center animate-box">
+                                <span><a href="progam.html" class="btn btn-success btn-block">Check All Programs</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fh5co-team-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="heading-section text-center animate-box">
+                                <h2>Join With Us</h2>
+                                <p>See the difference.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-6">
+                            <div class="program animate-box">
+                                <img src="images/job.svg" alt="Find a trainer today!">
+                                <h3>Find a trainer today!</h3>
+                                <p>All of our trainers are certified and highly skilled.</p>
+                                <span><a href="trainer.html" class="btn btn-default">Find a Trainer</a></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-6">
+                            <div class="program animate-box">
+                                <img src="images/handshake.svg" alt="Are you a trainer?">
+                                <h3>Are you a trainer?</h3>
+                                <p>Join us today! It is free!<br/>You work on your own terms and decide your own rates. We just bring the clients to you!</p>
+                                <span><a href="join.html" class="btn btn-default">Become a Trainer</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div id="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 animate-box">
+                                <h3 class="section-title">About Us</h3>
+                                <p>Fitness Trainers network is a network of professional and certified fitness trainers all around North America and ready to get you back in shape. If you are suffering from obesity, injuries, dietary issues, and any other
+                                    ailments, our trainers are here to help. We are focused on your well being and our goals is to focus on making you healthy. You can hire any of our trainers located close to your zip code and schedule an assessment
+                                    to determine the best course of action for your fitness routine. The first step always starts with you, so get it done.</p>
+                            </div>
+
+                            <div class="col-md-4 animate-box">
+                                <h3 class="section-title">Our Address</h3>
+                                <ul class="contact-info">
+
+                                    <li><i class="icon-phone"></i><a href="tel:+1-877-963-7283">+1-877-963-7283</a></li>
+                                    <li><i class="icon-envelope"></i><a href="mailto:info@fitnesstrainersnetwork.com">info@fitnesstrainersnetwork.com</a></li>
+                                    <li><i class="icon-globe2"></i><a href="http://www.fitnesstrainersnetwork.com/">www.fitnesstrainersnetwork.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 animate-box">
+                                <h3 class="section-title">Drop us a line</h3>
+                                <form class="contact-form">
+                                    <div class="form-group">
+                                        <label for="name" class="sr-only">Name</label>
+                                        <input type="name" class="form-control" id="name" placeholder="Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="sr-only">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message" class="sr-only">Message</label>
+                                        <textarea class="form-control" id="message" rows="8" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Send Message">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row copy-right">
+                            <div class="col-md-6 col-md-offset-3 text-center">
+                                <p class="fh5co-social-icons">
+                                    <a href="https://www.facebook.com/fitnesstrainers/"><i class="icon-facebook2"></i></a>
+                                    <a href=""><i class="icon-youtube"></i></a>
+                                </p>
+                                <p>Copyright 2019 <a href="http://www.fitnesstrainersnetwork.com/">fitnesstrainersnetwork</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://arijitdhar.com/" target="_blank">Arijit Dhar</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+        </div>
+        <!-- END fh5co-page -->
+
+    </div>
+    <!-- END fh5co-wrapper -->
+
+    <!-- jQuery -->
+
+    href=
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <!-- jQuery Easing -->
+    <script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+    <!-- Bootstrap -->
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <!-- Waypoints -->
+    <script src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+    <!-- Stellar -->
+    <script src="{{ url_for('static', filename='js/jquery.stellar.min.js') }}"></script>
+    <!-- Superfish -->
+    <script src="{{ url_for('static', filename='js/hoverIntent.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/superfish.js') }}"></script>
+
+
+    <!-- Main JS (Do not remove) -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>

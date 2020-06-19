@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fitness Trainers Network : Find a Fitness Trainer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fitness Trainers network is a network of professional and certified fitness trainers all around North America and ready to get you back in shape. If you are suffering from obesity, injuries, dietary issues, and any other ailments, our trainers are here to help. We are focused on your well being and our goals is to focus on making you healthy. You can hire any of our trainers located close to your zip code and schedule an assessment to determine the best course of action for your fitness routine. The first step always starts with you, so get it done."
+    />
+    <meta name="keywords" content="Fitness, USA, Canada, Training, Gym, Trainer, Cycle, Yoga, Yoga Programs, Programs, Body Building, Dr Dan, Body, Building, Boxing Fitness, Boxing, Fitness, Personal Trainer, moving, accredited moving,
+	 fitness, business consulting, leverage acquisition, government contracting, publishing, dating, coaching, accredited relocation businesses for USA and Canada" />
+    <meta name="author" content="http://arijitdhar.com" />
+    <meta name="publisher" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta name="copyright" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta name="rating" content="General" />
+    <meta http-equiv="Reply-to" content="info@fitnesstrainersnetwork.com" />
+    <meta name="creation_Date" content="07/11/2018" />
+    <meta name="expires" content="07/11/2031" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="doc-rights" content="Copywritten work" />
+    <meta name="doc-class" content="Completed" />
+    <meta name="robots" content="index, nofollow" />
+
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="Fitness Trainers Network : Find a Fitness Trainer" />
+    <meta property="og:image" content="images/logo.png" />
+    <meta property="og:url" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta property="og:site_name" content="fitnesstrainersnetwork" />
+    <meta property="og:description" content="Fitness Trainers network is a network of professional and certified fitness trainers all around North America and ready to get you back in shape. If you are suffering from obesity, injuries, dietary issues, and any other ailments, our trainers are here to help. We are focused on your well being and our goals is to focus on making you healthy. You can hire any of our trainers located close to your zip code and schedule an assessment to determine the best course of action for your fitness routine. The first step always starts with you, so get it done."
+    />
+    <meta name="twitter:title" content="Fitness Trainers Network : Find a Fitness Trainer" />
+    <meta name="twitter:image" content="images/logo.png" />
+    <meta name="twitter:url" content="http://www.fitnesstrainersnetwork.com/" />
+    <meta name="twitter:card" content="fitnesstrainersnetwork" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="images/logo.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900" rel="stylesheet" type="text/css">
+
+    <!-- Animate.css -->
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+
+    <!-- Superfish -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/superfish.css') }}">
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-material-datetimepicker.css') }}">
+
+
+    <!-- Modernizr JS -->
+    <script src="{{ url_for('static', filename='js/modernizr-2.6.2.min.js') }}"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <div id="fh5co-wrapper">
+        <div id="fh5co-page">
+            <div id="fh5co-header">
+                <header id="fh5co-header-section">
+                    <div class="container">
+                        <div class="nav-header">
+                            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                            <h1 id="fh5co-logo">
+                                <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='images/logo.png') }}" alt="Fitness Trainers Network" height="170px" width="170px"></a>
+                            </h1>
+                            <!-- START #fh5co-menu-wrap -->
+                            <nav id="fh5co-menu-wrap" role="navigation">
+                                <ul class="sf-menu" id="fh5co-primary-menu">
+                                    <li>
+                                        <a href="{{ url_for('index') }}">Home</a>
+                                    </li>
+                                    <li><a href="{{ url_for('programs') }}">Programs</a></li>
+                                    <!-- <li><a href="trainer.html">Find A Trainer</a></li>
+                                        <li><a href="join.html">Become A Trainer</a></li> -->
+                                    <li><a href="{{ url_for('allServices') }}">All Services</a></li>
+                                    <li class="active"><a href="{{ url_for('about') }}">About FTN</a></li>
+                                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                                    <li><a class="btn btn-success mr-auto">Join with Us</a>
+                                        <ul class="fh5co-sub-menu">
+                                            <li><a href="{{ url_for('trainers') }}">Find A Trainer</a></li>
+                                            <li><a href="{{ url_for('joinTrainer') }}">Become A Trainer</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <!-- end:fh5co-header -->
+            <div class="fh5co-parallax" style="background-image: url(images/trainer3.jpeg);" data-stellar-background-ratio="0.5">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
+                            <div class="fh5co-intro fh5co-table-cell animate-box">
+                                <h1 class="text-center">Join us today! It is free!</h1>
+                                <p>You work on your own terms and decide your own rates. We just bring the clients to you!</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fh5co-contact">
+                <div class="container">
+                    <div class="">
+                        <div class="row row-content">
+                            <div class="col-12 text-center">
+                                <h2><b>Register</b></h2>
+                            </div>
+
+                            <div class="col-12 col-md-12">
+                                <form action="/addTrainer" method="POST" id="regForm">
+                                    <div class="tab1">
+                                        <div class="col-12">
+                                            <u><p>Personal Information</p></u>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="firstname" class="col-md-2 col-form-label">Name</label>
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" required>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" required>
+                                            </div>
+                                            <span id="namsg"></span>
+
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                                            <div class="col-5 col-md-3">
+                                                <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code" required>
+                                            </div>
+                                            <div class="col-7 col-md-7">
+                                                <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number" minlength="10" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="telnum" class="col-12 col-md-2 col-form-label">Emergency Contact Tel.</label>
+                                            <div class="col-5 col-md-3">
+                                                <input type="tel" class="form-control" id="areacode" name="EmergencyAreaCode" placeholder="Area code" required>
+                                            </div>
+                                            <div class="col-7 col-md-7">
+                                                <input type="tel" class="form-control" id="telnum" name="EmergencyTelnum" placeholder="Tel. number" minlength="10" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="feedback" class="col-md-2 col-form-label">Address</label>
+                                            <div class="col-md-10">
+                                                <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="local" class="col-12 col-sm-2 col-form-label">State</label>
+                                            <div class="col-12 col-sm-10">
+                                                <select class="form-control" required>
+                                                                <option>California</option>
+                                                                <option>Nevada</option>
+                                                                <option>OregonWashington</option>
+                                                                <option>Arizona</option>
+                                                                <option> Wyoming</option>
+                                                                <option>Colorado</option>
+                                                                <option>New Mexico</option>
+                                                                <option>Texas</option>
+                                                                <option>Kansas</option>
+                                                                <option>Nebraska</option>
+                                                                <option>Minnesota</option>
+                                                                <option>Wisconsin</option>
+                                                                <option>Illinois</option>
+                                                                <option>Michigan</option>
+                                                                <option>Ohio</option>
+                                                                <option>Pennsylvania</option>
+                                                                <option>Virginia</option>
+                                                                <option>Washington DC</option>
+                                                                <option>Maryland</option>
+                                                                <option>Vermont</option>
+                                                                <option>New Hampshire</option>
+                                                                <option>Maine</option>
+                                                                <option>Rhode Island</option>
+                                                                <option>Connecticut</option>
+                                                              </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <div class="col-12 col-md-6">
+                                                <label for="gender" class="col-12 col-md-4 col-form-label">Gender</label>
+                                                <div class="col-md-5">
+                                                    <select class="form-control" required>
+                                                                     <option>Male</option>
+                                                                     <option>Female</option>
+                                                                 </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label for="gender" class="col-12 col-md-5 col-form-label">Profile Picture</label>
+                                                <div class="col-12 col-md-7">
+                                                    <input class="file" type="file" class="form-control" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="dob" class="col-12 col-md-2 col-form-label">Date of Birth</label>
+                                            <div class="col-5 col-md-3">
+                                                <input type="date" class="form-control" id="dob" name="dob" placeholder="Date of Birth" required>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="drname" class="col-md-2 col-form-label"> Doctor's Info</label>
+                                            <div class="col-md-3">
+                                                <input type="text" class="form-control" id="drname" name="drname" placeholder="Doctor's Name" required>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <input type="text" class="form-control" id="drphone" name="drphone" placeholder="Doctor's Phone No." required>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <input type="text" class="form-control" id="drfax" name="drfax" placeholder="Doctor's Fax" >
+                                            </div>
+                                            <span id="namsg"></span>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab1">
+                                        <div class="col-12">
+                                            <u><p>Login Information</p></u>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                                            <div class="col-md-10">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="password" class="col-md-2 col-form-label">Password</label>
+                                            <div class="col-md-10">
+                                                <input type="password" class="form-control" id="password" name="password" placeholder="Password" minlength="7" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="cpassword" class="col-md-2 col-form-label">Confirm Password</label>
+                                            <div class="col-md-10">
+                                                <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="Confirm Password" minlength="7" required>
+                                                <span id="message"></span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="tab1">
+                                        <div class="col-12">
+                                            <u><p>Occupation and Lifestyle</p></u>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="occ" class="col-md-3 col-form-label">What is your current occupation?</label>
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" id="occ" name="occ" placeholder="Current Occupation" required>
+                                            </div>
+                                            
+
+                                        </div>
+                                        <div class="form-group row">
+                                            
+                                            <div class="col-md-10">
+                                                <div class="form-check" id="prog">
+                                                    <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupation require extended periods of sitting?</label></p>
+                                                    <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupation require repetitive movements?</label></p>
+                                                    <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupationg  require you to wear shoes with a heel(dress shoes)?</label></p>
+                                                     
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-12">
+                                            <u><p>Physical Activity Readiness Questionnaire</p></u>
+                                            <div class="form-check" id="ready"></div>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has a doctor ever said you have heart trouble of a heart condition?</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has a doctor ever told you that you are diabetic?</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you frequently have pains in your heart and chest or suffer from asthma?</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you often feel faint or have spells of severe dizziness</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has a doctor ever said your blood pressure was too high?</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Has your doctor ever told you that you have a bone or joint problem(s)?</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Is there a medical reason why you should not follow an activity program?</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Are you over age 60 AND not accustomed to vigorous exercise?</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you suffer from any problems of the neck, back or knees,i.e. chronic pain, injury or numbness?</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Does your occupation require extended periods of sitting?</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Are you currently taking ny medications?</label></p>
+                                            <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Do you have previous surgeries or injuries</label></p>
+                                        
+                                        </div>
+                                        </div>
+                                        <div class="t1">
+                                            <div class="col-12">
+                                                <u><p>Fitness Profile</p></u>
+                                                <p>The 5 Components of Fitness is a formula designed to alter body composition. It is based on the laws of human
+                                                    physiology. Following a personalized program will allow you to achieve your goals safely and effectively. We'll cover the 5 Components in details,
+                                                    and then I will make some recommendations on what you need to do to maximize your results.
+                                                </p> 
+                                                <div class="form-group row">
+                                                    <label for="feedback" class="col-md-* col-form-label"> 1. What inspired you to get involved in a fitness program?</label>
+                                                    <div class="col-md-*">
+                                                        <textarea class="form-control" id="inspire" name="inspire" rows="3" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="feedback" class="col-md-* col-form-label"> 2. If currently involved in a workout program, tell me about your schedule</label>
+                                                    <div class="col-md-*">
+                                                        <textarea class="form-control" id="inspire" name="inspire" rows="3" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                <p class="col-12 "><input name="activity" type="checkbox" class="form-check-input padding-sm" value="sitting"><label class="padding-sm">Are you experiencing positive changes in your body every 3-4 weeks?</label></p>
+                                       
+                                        <div class="form-group row">
+                                            <div class="col-md"><p> 3. Rate yourself on a scale of 1-5 (1 needs work, 5 excellent) Circle the number that best applies</p>
+                                        </div></div>
+                                        <div class="form-group row">
+                                        Current body composition
+                                        <label class="radio-inline mb-2 ">
+                                            <input type="radio" name="optradio" checked> 1
+                                          </label>
+                                          <label class="radio-inline mb-2">
+                                            <input type="radio" name="optradio"> 2
+                                          </label>
+                                          <label class="radio-inline m">
+                                            <input type="radio" name="optradio"> 3
+                                          </label>
+                                          <label class="radio-inline">
+                                            <input type="radio" name="optradio"> 4
+                                          </label>
+                                          <label class="radio-inline ">
+                                            <input type="radio" name="optradio"> 5
+                                          </label>
+                                        
+                                        </div>
+                                        <div class="form-group row ">
+                                            Present nutrition/eating habits
+                                            <label class="radio-inline mb-2 ">
+                                                <input type="radio" name="optradio" checked> 1
+                                              </label>
+                                              <label class="radio-inline mb-2">
+                                                <input type="radio" name="optradio"> 2
+                                              </label>
+                                              <label class="radio-inline mb-2">
+                                                <input type="radio" name="optradio"> 3
+                                              </label>
+                                              <label class="radio-inline mb-2">
+                                                <input type="radio" name="optradio"> 4
+                                              </label>
+                                              <label class="radio-inline mb-2">
+                                                <input type="radio" name="optradio"> 5
+                                              </label>
+                                            
+                                            </div>
+                                            <div class="form-group row ">
+                                                Present athletic ability
+                                                <label class="radio-inline mb-2 ">
+                                                    <input type="radio" name="optradio" checked> 1
+                                                  </label>
+                                                  <label class="radio-inline mb-2">
+                                                    <input type="radio" name="optradio"> 2
+                                                  </label>
+                                                  <label class="radio-inline mb-2">
+                                                    <input type="radio" name="optradio"> 3
+                                                  </label>
+                                                  <label class="radio-inline mb-2">
+                                                    <input type="radio" name="optradio"> 4
+                                                  </label>
+                                                  <label class="radio-inline mb-2">
+                                                    <input type="radio" name="optradio"> 5
+                                                  </label>
+                                                
+                                                </div>
+                                                <div class="form-group row ">
+                                                    Present cardiovascular capacity
+                                                    <label class="radio-inline mb-2 ">
+                                                        <input type="radio" name="optradio" checked> 1
+                                                      </label>
+                                                      <label class="radio-inline mb-2">
+                                                        <input type="radio" name="optradio"> 2
+                                                      </label>
+                                                      <label class="radio-inline mb-2">
+                                                        <input type="radio" name="optradio"> 3
+                                                      </label>
+                                                      <label class="radio-inline mb-2">
+                                                        <input type="radio" name="optradio"> 4
+                                                      </label>
+                                                      <label class="radio-inline mb-2">
+                                                        <input type="radio" name="optradio"> 5
+                                                      </label>
+                                                    
+                                                    </div>
+                                                    <div class="form-group row ">
+                                                        Present muscular/strength
+                                                        <label class="radio-inline mb-2 ">
+                                                            <input type="radio" name="optradio" checked> 1
+                                                          </label>
+                                                          <label class="radio-inline mb-2">
+                                                            <input type="radio" name="optradio"> 2
+                                                          </label>
+                                                          <label class="radio-inline mb-2">
+                                                            <input type="radio" name="optradio"> 3
+                                                          </label>
+                                                          <label class="radio-inline mb-2">
+                                                            <input type="radio" name="optradio"> 4
+                                                          </label>
+                                                          <label class="radio-inline mb-2">
+                                                            <input type="radio" name="optradio"> 5
+                                                          </label>
+                                                        
+                                                        </div>
+                                                        <div class="form-group row ">
+                                                            Present flexibility capacity
+                                                            <label class="radio-inline mb-2 ">
+                                                                <input type="radio" name="optradio" checked> 1
+                                                              </label>
+                                                              <label class="radio-inline mb-2">
+                                                                <input type="radio" name="optradio"> 2
+                                                              </label>
+                                                              <label class="radio-inline mb-2">
+                                                                <input type="radio" name="optradio"> 3
+                                                              </label>
+                                                              <label class="radio-inline mb-2">
+                                                                <input type="radio" name="optradio"> 4
+                                                              </label>
+                                                              <label class="radio-inline mb-2">
+                                                                <input type="radio" name="optradio"> 5
+                                                              </label>
+                                                            
+                                                            </div>
+                                                            <div class="form-group row ">
+                                                                Present quality of your sleeping habits
+                                                                <label class="radio-inline mb-2 ">
+                                                                    <input type="radio" name="optradio" checked> 1
+                                                                  </label>
+                                                                  <label class="radio-inline mb-2">
+                                                                    <input type="radio" name="optradio"> 2
+                                                                  </label>
+                                                                  <label class="radio-inline mb-2">
+                                                                    <input type="radio" name="optradio"> 3
+                                                                  </label>
+                                                                  <label class="radio-inline mb-2">
+                                                                    <input type="radio" name="optradio"> 4
+                                                                  </label>
+                                                                  <label class="radio-inline mb-2">
+                                                                    <input type="radio" name="optradio"> 5
+                                                                  </label>
+                                                                
+                                                                </div>
+                                                                <div class="form-group row">
+                                                                    <label for="feedback" class="col-md-* col-form-label"> 4. How much time are you able to devote to your health and fitness goals?</label></div>
+                                                                <div class="form-group row">
+                                                                    <div class="col-md-4">
+                                                                        <input type="text" class="form-control" id="minpday" name="minpday" placeholder="min/day." required></div>
+                                                                    <div class="col-md-4"> <input type="text" class="form-control" id="daypweek" name="daypweek" placeholder="days/week." required>
+                                                                    </div></div>
+                                                                    <div class="form-group row">
+                                                                    <label for="feedback" class="col-md-* col-form-label"> 5. When is the best time of day for your workouts</label></div>
+                                                                <div class="form-group row">
+                                                                    <div class="col-md-4">
+                                                                        <input type="text" class="form-control" id="minpday" name="minpday" placeholder="am." required></div>
+                                                                    <div class="col-md-4"> <input type="text" class="form-control" id="daypweek" name="daypweek" placeholder="mid day." required>
+                                                                    </div>
+                                                                    <div class="col-md-4"> <input type="text" class="form-control" id="daypweek" name="daypweek" placeholder="pm" required></div>
+                                                                
+                                    </div>
+                                    <div class="form-group row">
+                                        <label>
+                                        6. Check all types of execises/programs that interest you?</label></div>
+                                        <div class="form-check form-group row " id="ready">
+                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Strength Training</label>
+                                        </div>
+                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Core Training</label>
+                                        </div>
+                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Flexibility</label>
+                                        </div>
+                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Cardio</label>
+                                        </div>
+                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Quick Fit(30min)</label>
+                                        </div>
+                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Bootcamps/Groups</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-check form-group row " id="ready">
+                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Yoga/Pilates</label>
+                                        </div>
+                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Stationary Bike</label>
+                                        </div>
+                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Jogging</label>
+                                        </div>
+                                        <div class="col-md-2"><input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"><label class="padding-sm"> Sport Specific</label>
+                                        </div>
+                                        <div class="col-md-4"><input name="activity" type="text" placeholder="Other favourites, please specify"></div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-12"><label>7. How many times per day do you eat(including snacks)?</label></div>
+                                            <div class="col-12"> <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-12"><label>8. Are you currently taking multivitamins or other supplements</label> <input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"></div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-md-6"><label>9. How much water do you drink daily?</label> </div><div class="col-md-6"><input class="form-control" type="text"></div></div>
+                                        
+                                        <div class="form-group row">
+                                        
+                                            <div class="col-md-6">
+                                                <input type="text" class="form-control" id="drink" name="drink" placeholder="If you drink, how much?" >
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" class="form-control" id="smoke" name="smoke" placeholder="If you smoke, how much?" >
+                                            </div>
+                                           
+
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-12"><label>10. Do you have a workout partner or support systems inside/outside of the gym?</label> <input name="activity" type="checkbox" class="form-check-input padding-sm " value="sitting"></div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-md-6"><input class="form-control" type="text" placeholder="If yes, then who?"></div>
+                                            <div class="col-md-6"><input class="form-control" type="text" placeholder="Are they currently a member"></div>
+                                        
+                                        </div>
+                                        <div class="form-group-row">
+                                        <label> 11. Use the following scale to rate each goal separately: 1 (Not at all important) to 5 (Very important)</label>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="emailid" class="col-md-2 col-form-label">Improve heart health</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                            <label for="emailid" class="col-md-2 col-form-label">Body-fat reduction</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                            <label for="emailid" class="col-md-2 col-form-label">Reshape or tone my body</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="emailid" class="col-md-2 col-form-label">Improve performance for a sport</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                            <label for="emailid" class="col-md-2 col-form-label">Improve mood and ability to cope with stress</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                            <label for="emailid" class="col-md-2 col-form-label">Improve flexibility posture</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="emailid" class="col-md-2 col-form-label">Increase Strength</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                            <label for="emailid" class="col-md-2 col-form-label">Increase energy level</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                            <label for="emailid" class="col-md-2 col-form-label">Decrease Stress</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="emailid" class="col-md-2 col-form-label">Increase metabolism</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                            <label for="emailid" class="col-md-2 col-form-label">Feel better</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="10" required>
+                                            </div>
+                                            <label for="emailid" class="col-md-2 col-form-label">Other, specify</label>
+                                            <div class="col-md-1">
+                                                <input type="email" class="form-control" id="emailid" name="emailid" width="20" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                        <label> 12. What is your #1 goal?</label>
+                                        <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> 
+                                        
+                                        </div>
+                                        <div class="form-group row">
+                                            <label> 13. By when do you want to accomplish your goal? </label>
+                                            <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="drname" class="col-md-2 "> 14. Current weight</label>
+                                            <div class="col-md-2">
+                                                <input type="text" class="form-control" id="drname" name="drname" placeholder="lbs" required>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <input type="text" class="form-control" id="drphone" name="drphone" placeholder="= (+) or (-)" required>
+                                            </div>
+                                            <label for="drname" class="col-md-2 ">Goal weight</label>
+                                            <div class="col-md-2">
+                                                <input type="text" class="form-control" id="drfax" name="drfax" placeholder="lbs" >
+                                            </div>
+                                            <div class="form-group row">
+                                                <label> 15. What other specific areas would you like to focus on?</label>
+                                                <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> 
+                                                
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label> 16. Do you have an exact plan for achieving these goals? If so, please explain.</label>
+                                                    <textarea class="form-control" id="feedback" name="feedback" rows="2" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea> 
+                                                    
+                                                    </div>   
+
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div class="tab1">
+                                        <div class="col-12">
+                                            <u><p>Availability</p></u>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="availability" class="col-md-2 col-form-label">Sunday</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="sf" class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                            <label for="availability" class="col-md-1 col-form-label  text-center">TO</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="st" class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="availability" class="col-12 col-md-2 col-form-label">Monday</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="mf"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="mt"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="availability" class="col-12 col-md-2 col-form-label">Tuesday</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="tf"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="tt"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="availability"  class="col-12 col-md-2 col-form-label">Wednesday</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="wf"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="wt"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="availability" class="col-12 col-md-2 col-form-label">Thursday</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="thf"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="tht"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="availability"  class="col-12 col-md-2 col-form-label">Friday</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="ff"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="ft"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="availability" class="col-12 col-md-2 col-form-label">Saturday</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="saf"  class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                            <label for="availability" class="col-md-1 col-form-label text-center">TO</label>
+                                            <div class="col-md-2 col-md-offset-0">
+                                                <input type="text" id="sat" class="form-control floating-label" placeholder="Time">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab1">
+                                        <div class="form-group row">
+                                            <label for="experience" class="col-md-2 col-form-label">Your Rate</label>
+                                            <div class="col-md-2">
+                                                <select class="form-control" required>
+                                                             <option>USD($)</option>
+                                                             <option>CAD</option>
+                                                         </select>
+                                            </div>
+                                            <div class="col-md-3 col-md-offset-0">
+                                                <input type="number" min="5" class="form-control" id="ratef" name="ratef" placeholder="60" required>
+                                            </div>
+                                            <div class="col-md-3 col-md-offset-0">
+                                                <input type="number" min="10" class="form-control" id="ratet" name="ratet" placeholder="80" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label for="cpassword" class="col-sm-2 col-form-label">Payment Methods</label>
+                                            <div class="col-sm-10">
+                                                <div class="form-check" id="prog">
+                                                    <p class="col-12 col-sm-6"><label class="padding-sm">Cash</label><input type="checkbox" class="form-check-input padding-sm" value="Cash" checked></p>
+                                                    <p class="col-12 col-sm-6"><label class="padding-sm">Cashier Check</label><input type="checkbox" class="form-check-input padding-sm" value="Cashier Check"></p>
+                                                    <p class="col-12 col-sm-6"><label class="padding-sm">Card</label><input type="checkbox" class="form-check-input padding-sm" value="Card"></p>
+                                                    <p class="col-12 col-sm-6"><label class="padding-sm">Personal Check</label><input type="checkbox" class="form-check-input" value="Personal Check"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab1">
+
+                                        <div class="form-group row">
+                                            <div class="col-md-2">
+                                                <div class="form-check">
+                                                    <label class="form-check-label" for="approve">
+                                                             <strong>May we contact you?</strong>
+                                                         </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <select class="form-control">
+                                                         <option>Yes</option>
+                                                         <option>No</option>
+                                                     </select>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <select class="form-control">
+                                                             <option>Tel.</option>
+                                                             <option>Email</option>
+                                                         </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="feedback" class="col-md-2 col-form-label">Any Message For Us?</label>
+                                            <div class="col-md-10">
+                                                <textarea class="form-control" id="feedback" name="feedback" rows="4" style="resize: vertical; overflow: auto; margin-top: 0px; margin-bottom: 0px;"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row text-center">
+                                        <div class="col-md-10 col-md-offset-2">
+                                            <button type="submit" href="{{ url_for('addTrainer') }}" class="btn btn-primary">Send Feedback</button>
+                                        </div>
+  
+                                </form>
+                                </div>
+                                <div class="col-12 col-md">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+                <footer>
+                    <div id="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 animate-box">
+                                    <h3 class="section-title">About Us</h3>
+                                    <p>Fitness Trainers network is a network of professional and certified fitness trainers all around North America and ready to get you back in shape. If you are suffering from obesity, injuries, dietary issues, and any
+                                        other ailments, our trainers are here to help. We are focused on your well being and our goals is to focus on making you healthy. You can hire any of our trainers located close to your zip code and schedule an assessment
+                                        to determine the best course of action for your fitness routine. The first step always starts with you, so get it done.</p>
+                                </div>
+
+                                <div class="col-md-4 animate-box">
+                                    <h3 class="section-title">Our Address</h3>
+                                    <ul class="contact-info">
+
+                                        <li><i class="icon-phone"></i><a href="tel:+1-877-963-7283">+1-877-963-7283</a></li>
+                                        <li><i class="icon-envelope"></i><a href="mailto:info@fitnesstrainersnetwork.com">info@fitnesstrainersnetwork.com</a></li>
+                                        <li><i class="icon-globe2"></i><a href="http://www.fitnesstrainersnetwork.com/">www.fitnesstrainersnetwork.com</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 animate-box">
+                                    <h3 class="section-title">Drop us a line</h3>
+                                    <form class="contact-form">
+                                        <div class="form-group">
+                                            <label for="name" class="sr-only">Name</label>
+                                            <input type="name" class="form-control" id="name" placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email" class="sr-only">Email</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message" class="sr-only">Message</label>
+                                            <textarea class="form-control" id="message" rows="8" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Send Message">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row copy-right">
+                                <div class="col-md-6 col-md-offset-3 text-center">
+                                    <p class="fh5co-social-icons">
+                                        <a href="https://www.facebook.com/fitnesstrainers/"><i class="icon-facebook2"></i></a>
+                                        <a href=""><i class="icon-youtube"></i></a>
+                                    </p>
+                                    <p>Copyright 2018 <a href="http://www.fitnesstrainersnetwork.com/">fitnesstrainersnetwork</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://arijitdhar.com/" target="_blank">Arijit Dhar</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+        <!-- jQuery -->
+            
+
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+        <!-- jQuery Easing -->
+        <script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+        <!-- Bootstrap -->
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+        <!-- Waypoints -->
+        <script src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+        <!-- Stellar -->
+        <script src="{{ url_for('static', filename='js/jquery.stellar.min.js') }}"></script>
+        <!-- Superfish -->
+        <script src="{{ url_for('static', filename='js/hoverIntent.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/superfish.js') }}"></script>
+
+        
+        <script type="text/javascript" src="http://momentjs.com/downloads/moment-with-locales.min.js"></script>
+
+        <!-- Main JS (Do not remove) -->
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap-checkbox.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap-material-datetimepicker.js') }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/js/ripples.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/js/material.min.js"></script>
+
+<script>
+            $(document).ready(function() {
+                $('#sf').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#st').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#mf').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#mt').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#tf').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#tt').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#wf').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#wt').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#thf').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#tht').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#ff').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#ft').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#saf').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+                $('#sat').bootstrapMaterialDatePicker({
+                    date: false,
+                    'cancelText': 'Cancel',
+                    lang: 'en',
+                    clearButton: true,
+                    shortTime: true,
+                    format: 'HH:mm',
+                    'okText': 'OK',
+
+                });
+
+            });
+        </script>
+
+</body>
+
+</html>
